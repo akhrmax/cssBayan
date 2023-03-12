@@ -1,0 +1,45 @@
+body {
+    font-size: 18px;
+    line-height: 1.5;
+    color:rgb(16, 6, 69);
+    background-color: rgb(167, 196, 186);
+}
+.memes{
+    max-width: 500px;
+    margin:20px auto;
+}
+.mem-item{
+    border: 2px solid rgb(164, 74, 74) ;
+    margin-bottom: 1%;
+}
+.meme-name{
+    display: block;
+    padding: 10px 15px;
+    color: rgb(14, 25, 92);
+    cursor: pointer;
+
+    transition: all .2s ease-out;
+}
+.meme-name:hover{
+    background-color: rgb(164, 74, 74);
+}
+.memes-input:checked + .memes-text{
+    display: block;
+}
+.memes-text{
+    display: none;
+    color:aliceblue
+}
+.memes-input{
+    appearance: none;
+    -webkit-appearance: none;
+    position: absolute;
+    width: 0;
+    height:0;
+}
+label{
+    font-family: 'Press start 2p', sans-serif;
+  }
+h1{
+    font-family:'Rubik Iso', cursive;;
+}
